@@ -3,4 +3,4 @@ The Problem that we discovered was the waste management of COVID Waste produced 
 Secondly, We also focus on how the process of recycling can be done efficiently. For the same, We provide a platform to the Hospitals to register and donate their waste via us. Next, the Recycling Industries can register themselves to get the notice of COVID waste that can be Recycled. They can order the required items and process them in their industry to make a usable product. We mainly aim for Sustainable Living by these steps, protecting our environment and our Planet Earth in the long run.
 
 ## PROJECT ROADMAP
-![Roadmap](./RoadMap ReMask Final.png)
+![Roadmap](RoadMap ReMask Final.png)
