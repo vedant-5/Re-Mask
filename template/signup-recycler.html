@@ -20,10 +20,13 @@
     <title>ReMask</title>
     <style>
         body {
-            color: #fff;
-            background: #63738a;
-            font-family: 'Roboto', sans-serif;
-        }
+        color: #fff;
+        background: url("./public/signinbg.jpeg") no-repeat center fixed;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+    }
         .form-control{
             height: 40px;
             box-shadow: none;
@@ -101,9 +104,15 @@
             text-decoration: none;
         }
         .signup-form form a{
-            color: #5cb85c;
+            color: #636363;
             text-decoration: none;
         }   
+
+        .toSelect {
+            color: #5cb85c;
+            text-decoration: underline;
+            font-weight: 700;
+        }
         .signup-form form a:hover{
             text-decoration: underline;
         }  
@@ -113,9 +122,9 @@
       <!--NAV BAR-->
      <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed"> 
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./Assets/Icons/Group 143.png" width="80%" alt="logo"/>
-              </a>  
+            <a class="navbar-brand" href="/index.html">
+          <img src="./public/logo.jpeg" alt="" width="200px" class="d-inline-block align-text-top">
+        </a>  
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -140,7 +149,7 @@
                 <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
               </li>
               <li class="nav-item">
-                <button class="nav-link active" aria-current="page" href="#">GET IN TOUCH</a>
+                <button class="nav-link active" aria-current="page" href="#">GET IN TOUCH</button>
               </li>    
           </div>
         </div>
@@ -148,13 +157,13 @@
       <!--NAV BAR ENDED-->
 
       <div class="signup-form">
-        <form action="/examples/actions/confirmation.php" method="post">
+        <form action="" method="post">
             <h2>Sign Up</h2>
             <p class="hint-text">Create your account. It's free and only takes a minute.</p>
             <div>
                 <div class="row text-align-center">
-                    <div class="col-6" id="hospital" ><a href="signin.html">HOSPITAL</a></div>
-                    <div class="col-6" id="formOption" >RECYCLER</div>
+                    <div class="col-6"  ><a href="signin.html">HOSPITAL</a></div>
+                    <div class="col-6 toSelect">RECYCLER</div>
                 </div>
             </div>
             <section id="hospital_form" >
@@ -179,9 +188,7 @@
             <div class="form-group">
                 <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
             </div>  
-            <div class="form-group">
-                <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
-            </div>
+            
         </section>
     
         <section hidden id="recycle_form">
@@ -191,7 +198,12 @@
         </section>
             
         </form>
-        <div class="text-center">Already have an account? <a href="#">Log in</a></div>
+        <div class="form-group">
+          <a href="homerecyle.html">
+            <button class="btn btn-success btn-lg btn-block">Register Now</button>
+          </a>
+        </div>
+        <div class="text-center">Already have an account? <a href="login.html">Log in</a></div>
     </div>
   </body>
 </html>

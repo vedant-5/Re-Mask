@@ -1,3 +1,8 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
 li {
   color: rgb(58, 58, 58);
 }
@@ -21,10 +26,15 @@ span {
 .nav-item {
   margin: 18px;
 }
+.nav-item a {
+  font-size: 1.2rem;
+}
 
 .nav-item > button {
-  background-color: #36c7ac;
+  background-color: #068f1d;
+  color: #fff;
   border: 3px solid #fff;
+  border-radius: 8px;
   padding-right: 100px;
 }
 
@@ -48,6 +58,18 @@ span {
   size: 10%;
   width: 70%;
 }
+/* 
+.background {
+  z-index: -1;
+  background-repeat: ;
+} */
+
+.home {
+  background: url("./main.jpg") no-repeat center fixed;
+  background-size: cover;
+  z-index: -1;
+  height: 100%;
+}
 
 .starbox {
   position: absolute;
@@ -67,7 +89,6 @@ span {
 }
 
 .greenfill {
-  margin-top: 120px;
   height: 600px;
   position: relative;
   background-color: #36c7ac;
