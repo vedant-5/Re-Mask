@@ -1,0 +1,241 @@
+li {
+  color: rgb(58, 58, 58);
+}
+
+span {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+}
+
+* {
+  font-family: muli, sans-serif;
+  font-style: normal;
+}
+
+.nav-item {
+  margin: 18px;
+}
+
+.nav-item > button {
+  background-color: #36c7ac;
+  border: 3px solid #fff;
+  padding-right: 100px;
+}
+
+.text01 {
+  font-weight: bolder;
+  line-height: 76px;
+  font-size: 26px;
+}
+
+.Button01 {
+  background-color: #36c7ac;
+}
+
+.homegrid {
+  margin: 25px;
+  transform: rotate(45deg);
+}
+
+.homegrid img {
+  margin: 30px;
+  size: 10%;
+  width: 70%;
+}
+
+.starbox {
+  position: absolute;
+  top: -25%;
+  left: 95px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 16px 3px 41px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.stats01 {
+  vertical-align: middle;
+  margin: auto;
+  width: 183px;
+  height: 168px;
+}
+
+.greenfill {
+  margin-top: 120px;
+  height: 600px;
+  position: relative;
+  background-color: #36c7ac;
+}
+
+.gbox {
+  top: 30%;
+  left: 95px;
+  margin-bottom: 40px;
+  position: absolute;
+}
+
+.expertise {
+  margin-top: 60px;
+}
+
+.cardImg {
+  width: 60%;
+  height: 60%;
+  padding: 20px;
+}
+
+.card-text {
+  padding-top: 20px;
+}
+
+.card01 {
+  vertical-align: middle;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  margin-left: 70px;
+  background-color: #fff;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  width: 275px;
+  height: 200px;
+}
+
+.iconTag {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.iconTag div {
+  padding: 12px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.iconTag p {
+  padding-left: 5px;
+  margin: auto;
+}
+
+.expertt {
+  background-color: #36c7ac;
+}
+
+.trusted {
+  background-color: #18b5b1;
+}
+
+.prods {
+  font-size: 40px;
+  color: white;
+}
+
+.prods02 {
+  font-size: 25;
+  font-weight: bold;
+  color: white;
+}
+
+.buttontalk {
+  border-radius: 50px;
+  height: 46px;
+  width: 240px;
+  border: 1px solid #fff;
+  color: white;
+  background-color: transparent;
+}
+
+.buttoncs {
+  border-radius: 50px;
+  height: 46px;
+  width: 240px;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.tech {
+  left: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.navv {
+  border-radius: 40px;
+  height: 85px;
+  left: 40px;
+}
+
+.headTip {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.tipcard {
+  border: 1px solid #e7e7e7;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 18px;
+  height: 190px;
+}
+
+.about {
+  background-color: #36c7ac;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.about p {
+  color: #fff;
+}
+
+.aboutHead {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.sendButton {
+  border-radius: 20px;
+  background-color: #fff;
+  width: 30%;
+  height: 40px;
+  border: 1px solid #fff;
+  color: #36c7ac;
+}
+
+.form-floating input,
+.form-floating select {
+  width: 90%;
+  background-color: #36c7ac;
+  opacity: 100%;
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+
+.form-floating label {
+  padding: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.purple {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("./Assets/bg img/Rectangle\ 117.png");
+  padding: 50px;
+}
+
+.circle {
+  border-radius: 50%;
+  padding: 6px;
+  height: 107px;
+  width: 110pt;
+  border: 1px solid black;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.05);
+}
