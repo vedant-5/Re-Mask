@@ -11,7 +11,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
     
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed"> 
       <div class="container">
         <a class="navbar-brand" href="/index.html">
-          <img src="./public/logo.jpeg" alt="" width="200px" class="d-inline-block align-text-top">
+          <img src="./static/images/logo.jpeg" alt="" width="200px" class="d-inline-block align-text-top">
         </a>  
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="homerecycle.html">HOME</a>
+              <a class="nav-link active" aria-current="page" href="homerecyle.html">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">WHO WE ARE</a>
@@ -134,7 +134,7 @@
       },
     ];
 
-    const dataMovie = fetch('https://jsonplaceholder.typicode.com/todos/1')
+    const dataMovie = fetch('https://jsonplaceholder.typicode.com/todos')
                       .then(response => response.json())
                       .then(json => console.log(json))
 
